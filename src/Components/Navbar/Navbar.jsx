@@ -19,7 +19,7 @@ const Navbar = () => {
             <img className="max-h-20 py-2 w-32" src={logo} alt="Logo" />
           </a>
           <div className="hidden lg:flex space-x-5 items-center">
-            {['hero', 'services', 'about', 'contact'].map((section) => (
+            {['home', 'services', 'about', 'contact'].map((section) => (
               <Link
                 key={section}
                 to={section}
@@ -66,7 +66,7 @@ const Navbar = () => {
           } transition-transform duration-300`}
         >
           <div className="flex flex-col items-center py-4">
-            {['hero', 'services', 'about', 'contact'].map((section) => (
+            {['Home', 'services', 'about', 'contact'].map((section) => (
               <Link
                 key={section}
                 to={section}
