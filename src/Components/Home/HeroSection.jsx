@@ -3,10 +3,10 @@ import hero from '../../assets/hero.webp';
 
 const HeroSection = () => {
     return (
-        <section id="home" className="h-screen  flex items-center justify-center bg-gray-100 px-4">
+        <section id="home" className="h-screen md:pt-0 flex items-center justify-center bg-gray-100 px-4">
             <div className="container-custom flex flex-col sm:flex-row items-center">
-                <div className="text-center  sm:text-left sm:w-1/2 mb-8 sm:mb-0" data-aos="fade-right" data-aos-duration="1000">
-                    <h1 className="text-3xl overflow-hidden sm:text-4xl md:text-5xl font-bold text-blue-500 mb-4">
+                <div className="text-left sm:w-1/2 mb-8 sm:mb-0" data-aos="fade-right" data-aos-duration="1000">
+                    <h1 className="text-xl overflow-hidden sm:text-4xl md:text-5xl font-bold text-blue-500 mb-4">
                     Empowering Your Business with Innovative Solutions
                     </h1>
                     <p className="text-base sm:text-lg md:text-xl text-gray-700">
