@@ -16,9 +16,9 @@ const Footer = () => {
       <div className="flex flex-col items-center sm:items-start gap-2">
         <h1 className="text-xl font-bold">Company</h1>
         <a href="/">Home</a>
-        <a href="#about">About</a>
-        <a href="#services">Service</a>
-        <a href="#contact">Contact</a>
+        <a href="/#about">About</a>
+        <a href="/#services">Service</a>
+        <a href="/#contact">Contact</a>
       </div>
 
       {/* Social Media */}
